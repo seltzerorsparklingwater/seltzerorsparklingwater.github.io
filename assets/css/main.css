@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Do Hyeon', sans-serif;
-  background-color: #04112e;
+  background-color: #000000;
   color: #e3c2dc;
   text-align: center;
 
@@ -12,7 +12,7 @@ div {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: circle;
   text-align: left;
 }
 
@@ -30,11 +30,11 @@ h2 {
 }
 
 a {
-  color: #04112e;
+  color: whitesmoke;
 }
 
 a.scroll {
-  color: #433561;
+  color: whitesmoke;
 }
 
 .section-subcontainer {
@@ -44,8 +44,8 @@ a.scroll {
 }
 
 .text-container {
-  background-color: #9487df;
-  color: #5a3f8a;
+  background-color: #000000;
+  color: whitesmoke;
   max-width: 50%;
   opacity: 0.9;
   width: 680px;
@@ -53,7 +53,7 @@ a.scroll {
 
 #nav {
   margin-left: 0;
-  background-color: #04112e;
+  background-color: #000000;
   z-index: 3;
 }
 
@@ -68,13 +68,13 @@ a.scroll {
 }
 
 #welcome {
-  background-image: url("../../images/welcome2.gif");
+  background-image: url("../../images/welcome.gif");
   background-repeat: repeat;
   height: 100vh;
 }
 
 #about {
-   background-image: url("../../images/about.gif");
+   background-image: url("../../images/about3.gif");
    background-repeat: repeat;
    height: 100vh;
 }
@@ -106,18 +106,19 @@ ul.nav-list-container {
 li.nav-item {
   float: left;
   margin-left: 16px;
+  list-style-type: none;
 }
 
 li.nav-item a.nav-link {
   display: block;
-  color: #af62ba;
+  color: whitesmoke;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
 
 li.nav-item a.nav-link:hover {
-  background-color: #167efc;
+  background-color: #6495ED;
 }
 
 .pic-container {
@@ -134,5 +135,23 @@ iframe {
 }
 
 .links-container {
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  
 }
+
+a:visited {
+  color: whitesmoke;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+  padding-left: 200;
+}
+
+.no-dot {
+  list-style-type: none;
+}
+
