@@ -115,8 +115,7 @@ li.nav-item a.nav-link:hover {
 }
 
 .pic-container {
-  height: 450px;
-  width: 450px;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
