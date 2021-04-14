@@ -1,1 +1,115 @@
-Hello World
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav">
+        <ul class="nav-list-container">
+            <li class="nav-item"><a class="nav-link" href="#welcome">Welcome</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#links">Find me</a></li>
+        </ul>
+    </div>
+
+    <!--Welcome-->
+    <div class="section-container">
+        <div class="section-subcontainer" id="welcome">
+            <div class="text-container">
+                <h1>Welcome</h1>
+                <div class="pic-container">
+                    <iframe src="images/emily.gif" frameBorder="0"></iframe>
+                </div>
+                <h3>I'm Emily</h3>
+                <a href="#about" class="scroll">More about me</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="section-container">
+        <div class="section-subcontainer" id="about">
+            <div class="text-container">
+                <h2>About me</h2>
+                <ul class="aligned-list">
+                    <li>NYC/CA Attorney with a Tech Background</li>
+                    <li>I love languages and linguistics! English, Spanish, French, Italian, Portuguese, Turkish, Danish, Japanese.</li>
+                    <li>I am also a self-styled amateur botanist and plant lover.</li>
+                    <li>#catmom</li>
+                </ul>
+                <a href="#skills" class="scroll">Skills</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section-container">
+        <div class="section-subcontainer" id="skills">
+            <div class="text-container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python, Ruby, Javascript, Go, SQL, Rails, Node.js, React, PostgreSQL, testing, debugging, system design, database architecture, and more!</li>
+                </ul>
+                <ul>
+                    <li>Project Management, Program Management, Negotiation, Contract Review/Drafting/Interpreting, Translating Legalese to Plain English</li>
+                </ul>
+                <a href="#links" class="scroll">Find me</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Links -->
+    <div class="section-container">
+        <div class="section-subcontainer" id="links">
+            <div class="text-container">
+                <h2>Find me</h2>
+                <div class="links-container">
+                    <ul class="social">
+                        <li><a href="mailto:emily.m.westfall@gmail.com?Subject=Hello"
+                                target="_top">emily.m.westfall@gmail.com</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/in/emily-m-westfall"
+                                class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/seltzerorsparklingwater/"
+                                class="icon fa-github"><span class="label">Github</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="links-container">
+        <div>
+            <i>All gifs sourced from Giphy</i>
+            <ul>
+                <li><a href="https://giphy.com/gifs/art-80s-mt0GHCz24SkYo"></a></li>
+                <li><a href="https://giphy.com/gifs/80s-synthwave-aesthetic-7vAh6jZgg5mOqjJj5h"></a></li>
+                <li><a href="https://giphy.com/gifs/pixel-vaporwave-pixelart-xT9IgvRN1OzWaR0KWI"></a></li>
+                <li><a href="https://giphy.com/gifs/80s-retro-phone-l41lO0QvEQ8kjaIko"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        window.onscroll = () => { fixNavbar() };
+        const navbar = document.getElementById("nav");
+        const sticky = navbar.offsetTop;
+
+        const fixNavbar = () => {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

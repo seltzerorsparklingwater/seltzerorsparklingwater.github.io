@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: #04112e;
+  color: #e3c2dc;
+  text-align: center;
+
+}
+
+div {
+  margin-left: 8px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  margin: 4px;
+}
+
+h1 {
+  margin-top: 16px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px
+}
+
+a {
+  color: #04112e;
+}
+
+a.scroll {
+  color: #433561;
+}
+
+.section-subcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  background-color: #9487df;
+  color: #5a3f8a;
+  max-width: 50%;
+  opacity: 0.9;
+  width: 680px;
+}
+
+#nav {
+  margin-left: 0;
+  background-color: #04112e;
+  z-index: 3;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.section-container {
+  margin: 0;
+}
+
+#welcome {
+  background-image: url("../../images/welcome.gif");
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+#about {
+   background-image: url("../../images/about.gif");
+   background-repeat: repeat;
+   height: 100vh;
+}
+
+#skills {
+   background-image: url("../../images/skills.gif");
+   background-repeat: repeat;
+   height: 100vh;
+}
+
+#links {
+   background-image: url("../../images/links.gif");
+   background-repeat: repeat;
+   height: 100vh;
+}
+
+ul.nav-list-container {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.nav-item {
+  float: left;
+  margin-left: 16px;
+}
+
+li.nav-item a.nav-link {
+  display: block;
+  color: #af62ba;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li.nav-item a.nav-link:hover {
+  background-color: #167efc;
+}
+
+.pic-container {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 16px;
+}
+
+iframe {
+  overflow:hidden;
+  height: 100%;
+}
+
+.links-container {
+  flex-direction: column;
+}
