@@ -94,7 +94,7 @@ a.scroll {
 #projects {
   background-image: url("../../images/projects.gif");
   background-repeat: repeat;
-  height: 100vh;
+  height: 150vh;
 }
 
 ul.nav-list-container {
